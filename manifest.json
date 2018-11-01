@@ -1,0 +1,14 @@
+{
+  "name": "Trying",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Trying out chrome extension",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": ["tabs", "https://calendar.google.com/"],
+  "web_accessible_resources": ["dre.jpg", "today.mp3"]
+}
